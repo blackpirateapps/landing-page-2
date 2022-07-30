@@ -81,19 +81,37 @@ body {
 }
 .about-team {
     display: flex;
-    padding: 1rem;
     justify-content: center;
     max-width: 900px;
     margin: auto;
     flex-wrap: wrap;
-    gap: 1rem;
+    row-gap: 1rem;
+    column-gap: 0.1rem;
+}
+.team-heading {
+    text-align: center;
+    color: var(--accent-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 16px;
+    letter-spacing: 0.5rem;
+    border: 4px solid var(--accent-color);
+    width: fit-content;
+    margin: auto;
 }
 .team-member {
     margin: auto;
+    background-color: var(--grey3);
+    border: 4px solid black;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-radius: 16px;
 }
 .team-member > center > img {
     border-radius: 50%;
-    width: 15rem;
+    
+    width: 12rem;
 }
 .member-info {
     border-radius: 8px;
