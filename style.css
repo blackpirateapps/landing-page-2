@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;500&family=Roboto+Slab:wght@500&display=swap');
 :root {
-    --accent-color: rgb(88,86,214);
+    --accent-color: #FF6C0D;
     --grey2: rgb(99,99,103);
     --grey3: rgb(229,229,234);
 }
@@ -46,14 +46,15 @@ body {
 }
 .subtitle {
     text-align: center;
+    font-style: italic;
     font-size: 1.8rem;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     color: white;
     padding-top: 1rem;
 }
 .highlight {
-    color: white;
+    color: var(--accent-color);
 }
 .section-heading {
     background-color: var(--accent-color);
@@ -179,9 +180,18 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
 }
-.contact-card > h3 {
+.contact-address > h3 {
     text-align: center;
     font-family: sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    color: var(--accent-color);
+}
+.contact-address {
+    background-color: var(--grey3);
+    border-radius: 16px;
+    color: black;
+    padding: 1rem;
 }
 .contact-items {
     background-color: white;
@@ -287,4 +297,18 @@ body {
 .bottom-nav > p >a {
     color: white;
     text-underline-offset: 20%;
+}
+.contact-address {
+    max-width: 500px;
+    margin: auto;
+}
+.bold {
+    font-weight: 900;
+}
+.contact-address-all {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-grow: 1;
 }
