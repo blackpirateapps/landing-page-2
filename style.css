@@ -208,6 +208,10 @@ body {
 .twitter::before,
 .email::before {
     padding-right: 0.25rem;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
 }
 .service-1::before,
 .service-2::before,
