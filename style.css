@@ -33,9 +33,11 @@ body {
 }
 .home {
     padding: 10rem 2rem;
+    background-image: url(/background.jpg);
 }
 .home > h1 {
     text-align: center;
+    color: white;
     font-size: 5rem;
     text-transform: uppercase;
     font-family: 'Archivo', sans-serif;
@@ -47,11 +49,11 @@ body {
     font-size: 1.8rem;
     max-width: 600px;
     margin: auto;
-    color: var(--grey2);
+    color: white;
     padding-top: 1rem;
 }
 .highlight {
-    color: var(--accent-color);
+    color: white;
 }
 .section-heading {
     background-color: var(--accent-color);
